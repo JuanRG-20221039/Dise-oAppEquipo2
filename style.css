@@ -1,0 +1,372 @@
+body{
+    background-color: rgb(54, 54, 54);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cuerpo{
+    background-color: white;
+    width: 320px;
+    height: 550px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/*INDEX.HTML*/
+.logo{
+    width: 70px;
+}
+.fondoLogo {
+    margin-top: 220px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom,  #ff20cf, #ffae00);
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.subText{
+    color: black;
+}
+.hojaLogo{
+    position:absolute;
+    margin-top: 165px;
+    margin-left: 140px;
+}
+.logoHoja{
+    width: 50px;
+}
+
+/*INICIO.HTML*/
+.cuerpo2{
+    background: linear-gradient(to left, #ff20cf, #ffae00);
+}
+.hojaInicio{
+    width: 40px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 60px;
+}
+.shopping{
+    font-family:"Arial", sans-serif;
+    font-weight: 100;
+}
+.shoppingT{
+    margin-top: 100px;
+    border: 2px solid;
+    color: black;
+    width: 250px;
+    margin-bottom: 30px;
+    background: linear-gradient(to left, #91ff00,#20c0ff);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.flexLog{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.boxLog{
+    border: 1px solid;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.textLog{
+    font-family:"Arial", sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+.imgUser{
+    position: absolute;
+    width: 30px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+}
+.imgB{
+    position: absolute;
+    margin-bottom: 80px;
+}
+.imgPassword{
+    position: absolute;
+    width: 30px;
+    margin-top: 70px;
+    margin-right: 155px;
+}
+.botonRepPass{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color:  rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    width: 70%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.repPass{
+    font-size: 16px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+.logoLog{
+    margin-top: 30px;
+    width: 80px;
+}
+
+/*MENU-SHOP*/
+.navBar{
+    /*HAY UN MARGIN EN EL HTML*/
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 0.5;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.iconBar{
+    position: absolute;
+    width: 20px;
+    margin-left: 240px;
+    margin-top: 10px;
+}
+.iconBarAct{
+    position: absolute;
+    margin-right: 240px;
+    margin-bottom: 40px;
+}
+.iconBarL{
+    width: 20px;
+}
+.iconBarActL{
+    position: absolute;
+    margin-right: 660px;
+    margin-bottom: 40px;
+}
+.iconBarActL2{
+    position: absolute;
+    margin-right: 760px;
+    margin-bottom: 40px;
+}
+.fRow{
+    flex-direction: row;
+    justify-content: start;
+}
+.contenedor1{
+    margin-top: 10px;
+    background-color: white;
+    width: 280px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.contenedor2{
+    margin: 3px;
+    margin-top: 10px;
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.contenedor3{
+    margin-top: 10px;
+    background-color: white;
+    width: 280px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.sinStyle{
+    width: 30%;
+    margin: 7px;
+}
+.imgShopLink{
+    width: 100%;
+    border-radius: 10%;
+}
+.imgShop{
+    width: 30%;
+    border-radius: 10%;
+    margin: 7px;
+}
+.imgShop2{
+    width: 90%;
+    border-radius: 10%;
+}
+.columText{
+    flex-direction: column;
+    align-items: start;
+}
+.textShop{
+    font-family:"Arial", sans-serif;
+    font-size:100%;
+    margin: 1px;
+}
+.blue{
+    color: rgb(0, 89, 255);
+}
+.green{
+    color: #00cf11;
+}
+.oferta{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-top: 60px;
+    margin-left: 37px;
+    background: linear-gradient(to left, #91ff00,#20c0ff);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.ofertaText{
+    font-family:"Arial", sans-serif;
+    font-size: 70%;
+}
+
+/*BUSQUEDA*/
+.cuerpoGris{
+    background-color: rgb(218, 218, 218);
+}
+.cuerpo2Margen{
+    width: 320px;
+    height: 70px;
+    margin-bottom: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(to bottom, #ff20cf, #ffae00);
+}
+.iconBarL2{
+    position: absolute;
+    width: 30px;
+    margin-left: 260px;
+}
+.iconBarL3{
+    position: absolute;
+    width: 25px;
+    margin-right: 260px;
+}
+.fColum{
+    flex-direction: column;
+}
+
+/*MENU DESPLEGABLE*/
+.imgDesp1{
+    position: absolute;
+    width: 35px;
+    margin-right: 250px;
+}
+.navUser{
+    background-color: white;
+    margin-left: 50px;
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    opacity: 0.5;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.imgDesp2{
+    position: absolute;
+    width: 35px;
+    margin-right: 130px;
+}
+.userNamer{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.contenedor4{
+    margin-top: 10px;
+    background-color: white;
+    width: 280px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.userOpt{
+    font-size: 15px;
+}
+.fLeft{
+    justify-content: flex-start;
+}
+.imgOpt{
+    width: 30px;
+    margin: 20px;
+}
+
+/*CARRITO*/
+.imgCar1{
+    position: absolute;
+    width: 35px;
+    margin-right: 250px;
+}
+.navCar{
+    background-color: white;
+    margin-left: 50px;
+    width: 240px;
+    height: 50px;
+    border-radius: 10px;
+    opacity: 0.5;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.imgCar2{
+    position: absolute;
+    width: 30px;
+    margin-right: 125px;
+}
+.userCar{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.btnComprar{
+    background: linear-gradient(to left, #91ff00,#20ff32);
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    margin-top: 480px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.textComprar{
+    font-size: 20px;
+}
+.productoCarrito{
+    width: 300px;
+    height: 110px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+/*VISTA DEL PRODUCTO*/
+.imgVista{
+    width: 50%;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+}
+.cuerpo3{
+    background: linear-gradient(to left, #91ff00,#20c0ff);
+}
+.contenido{
+    margin-top: 20px;
+    background: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.textProducto{
+    font-family:"Arial", sans-serif;
+    font-size: 25px;
+    margin: 10px;
+}
+.btnOrdenar{
+    margin: 0px;
+    margin-top: 170px;
+    background: linear-gradient(to left, #ffe600,#ff3a20);
+}
